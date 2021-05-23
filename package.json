@@ -1,0 +1,28 @@
+{
+  "name": "node-static-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "bin": {
+    "node-static-server": "bin/www.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Super-Pig/node-static-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Super-Pig/node-static-server/issues"
+  },
+  "homepage": "https://github.com/Super-Pig/node-static-server#readme",
+  "dependencies": {
+    "commander": "^7.2.0",
+    "ejs": "^3.1.6",
+    "mime": "^2.5.2"
+  }
+}
